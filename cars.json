@@ -1,0 +1,1072 @@
+{
+  "cars": [
+    {
+      "brand": "Abarth",
+      "country": "Italy",
+      "models": [
+        {
+          "carId": 1,
+          "name": "595 SS",
+          "year": 1964,
+          "class": "street"
+        },
+        {
+          "carId": 2,
+          "name": "500 Assetto Corse",
+          "year": 2014,
+          "class": "race"
+        },
+        {
+          "carId": 3,
+          "name": "500 EsseEsse",
+          "year": 2008,
+          "class": "street"
+        }
+      ]
+    },
+    {
+      "brand": "Alfa Romeo",
+      "country": "Italy",
+      "models": [
+        {
+          "carId": 4,
+          "name": "155 TI V6",
+          "year": 1996,
+          "class": "race"
+        },
+        {
+          "carId": 5,
+          "name": "33 Stradale",
+          "year": 1967,
+          "class": "street"
+        },
+        {
+          "carId": 6,
+          "name": "4C",
+          "year": 2013,
+          "class": "street"
+        },
+        {
+          "carId": 7,
+          "name": "Giulia Quadrifoglio",
+          "year": 2016,
+          "class": "street"
+        },
+        {
+          "carId": 8,
+          "name": "GTA",
+          "year": 1965,
+          "class": "race"
+        },
+        {
+          "carId": 9,
+          "name": "Mito QV",
+          "year": 2012,
+          "class":"street"
+        }
+      ]
+    },
+    {
+      "brand": "Audi",
+      "country": "Germany",
+      "models": [
+        {
+          "carId": 10,
+          "name": "R18 e-tron quattro 2014",
+          "year": 2014,
+          "class": "race"
+        },
+        {
+          "carId": 11,
+          "name": "R8 LMS 2016",
+          "year": 2016,
+          "class": "race"
+        },
+        {
+          "carId": 12,
+          "name": "R8 LMS Ultra",
+          "year": 2009,
+          "class":"race"
+        },
+        {
+          "carId": 13,
+          "name": "R8 V10 Plus",
+          "year": 2007,
+          "class": "street"
+        },
+        {
+          "carId": 14,
+          "name": "S1",
+          "year": 2015,
+          "class": "street"
+        },
+        {
+          "carId": 15,
+          "name": "Sport quattro",
+          "year": 1994,
+          "class": "street"
+        },
+        {
+          "carId": 16,
+          "name": "Sport quattro S1 E2",
+          "year": 1984,
+          "class": "race"
+        },
+        {
+          "carId": 17,
+          "name": "TT Cup",
+          "year": 2016,
+          "class":"race"
+        },
+        {
+          "carId": 18,
+          "name": "TT RS (VLN)",
+          "year": 2015,
+          "class": "race"
+        }
+      ]
+    },
+    {
+      "brand": "BMW",
+      "country": "Germany",
+      "models": [
+        {
+          "carId": 19,
+          "name": "1M",
+          "year": 2004,
+          "class": "street"
+        },
+        {
+          "carId": 20,
+          "name": "M235i Racing",
+          "year": 2014,
+          "class":"race"
+        },
+        {
+          "carId": 21,
+          "name": "M3 E30",
+          "year": 1986,
+          "class": "street"
+        },
+        {
+          "carId": 22,
+          "name": "M3 E30 Group A",
+          "year": 1986,
+          "class":"race"
+        },
+        {
+          "carId": 23,
+          "name": "M3 E92",
+          "year": 2015,
+          "class":"street"
+        },
+        {
+          "carId": 24,
+          "name": "M3 GT2",
+          "year": 2009,
+          "class": "race"
+        },
+        {
+          "carId": 25,
+          "name": "M4",
+          "year": 2015,
+          "class": "street"
+        },
+        {
+          "carId": 26,
+          "name": "M4 Akrapovic",
+          "year": 2015,
+          "class": "street"
+        },
+        {
+          "carId": 27,
+          "name": "Z4 E89",
+          "year": 2009,
+          "class": "street"
+        },
+        {
+          "carId": 28,
+          "name": "Z4 GT3",
+          "year": 2010,
+          "class":"race"
+        }
+      ]
+    },
+    {
+      "brand": "Chevrolet",
+      "country": "USA",
+      "models": [
+        {
+          "carId": 29,
+          "name": "Corvette C7 Stingray",
+          "year": 2014,
+          "class": "street"
+        },
+        {
+          "carId": 30,
+          "name": "Corvette C7R",
+          "year": 2015,
+          "class": "race"
+        }
+      ]
+    },
+    {
+      "brand": "Ferrari",
+      "country": "Italy",
+      "models": [
+        {
+          "carId": 31,
+          "name": "250 GTO",
+          "year": 1962,
+          "class": "street"
+        },
+        {
+          "carId": 32,
+          "name": "312/67",
+          "year": 1967,
+          "class":"race"
+        },
+        {
+          "carId": 33,
+          "name": "312T",
+          "year": 1975,
+          "class":"race"
+        },
+        {
+          "carId": 34,
+          "name": "330 P4",
+          "year": 1967,
+          "class":"race"
+        },
+        {
+          "carId": 35,
+          "name": "458 GT2",
+          "year": 2011,
+          "class": "race"
+        },
+        {
+          "carId": 36,
+          "name": "458 Italia",
+          "year": 2011,
+          "class": "race"
+        },
+        {
+          "carId": 37,
+          "name": "488 GT3",
+          "year": 2011,
+          "class": "race"
+        },
+        {
+          "carId": 38,
+          "name": "488 GTB",
+          "year": 2015,
+          "class": "race"
+        },
+        {
+          "carId": 39,
+          "name": "599XX EVO",
+          "year": 2012,
+          "class": "race"
+        },
+        {
+          "carId": 40,
+          "name": "812 Superfast",
+          "year": 2017,
+          "class": "street"
+        },
+        {
+          "carId": 41,
+          "name": "F138",
+          "year": 2013,
+          "class": "race"
+        },
+        {
+          "carId": 42,
+          "name": "F2004",
+          "year": 2004,
+          "class":"race"
+        },
+        {
+          "carId": 43,
+          "name": "F40",
+          "year": 1987,
+          "class":"street"
+        },
+        {
+          "carId": 44,
+          "name": "FXX K",
+          "year": 2015,
+          "class": "race"
+        },
+        {
+          "carId": 45,
+          "name": "GTO",
+          "year": 1984,
+          "class": "street"
+        },
+        {
+          "carId": 46,
+          "name": "LaFerrari",
+          "year": 2015,
+          "class": "street"
+        },
+        {
+          "carId": 47,
+          "name": "SF15-T",
+          "year": 2015,
+          "class":"race"
+        },
+        {
+          "carId": 48,
+          "name": "SF70H",
+          "year": 2017,
+          "class": "race"
+        }
+      ]
+    },
+    {
+      "brand": "Ford",
+      "country": "USA",
+      "models": [
+        {
+          "carId": 49,
+          "name": "Escort RS1600",
+          "year":1973,
+          "class":"race"
+        },
+        {
+          "carId": 50,
+          "name": "GT40",
+          "year":1966,
+          "class":"race"
+        },
+        {
+          "carId": 51,
+          "name": "Mustang 2015",
+          "year": 2015,
+          "class":"street"
+        }
+      ]
+    },
+    {
+      "brand": "KTM",
+      "country": "Austria",
+      "models": [
+        {
+          "carId": 52,
+          "name": "X-Bow R",
+          "year": 2008,
+          "class":"street"
+        }
+      ]
+    },
+    {
+      "brand": "Lamborghini",
+      "country": "Italy",
+      "models": [
+        {
+          "carId": 53,
+          "name": "Aventador SV",
+          "year": 2011,
+          "class": "street"
+        },
+        {
+          "carId": 54,
+          "name": "Countach",
+          "year": 1983,
+          "class": "street"
+        },
+        {
+          "carId": 55,
+          "name": "Gallardo SL",
+          "year": 2007,
+          "class": "street"
+        },
+        {
+          "carId": 56,
+          "name": "Huracan GT3",
+          "year": 2015,
+          "class": "race"
+        },
+        {
+          "carId": 57,
+          "name": "Huracan Performante",
+          "year": 2014,
+          "class": "street"
+        },
+        {
+          "carId": 58,
+          "name": "Huracan ST",
+          "year": 2014,
+          "class":"race"
+        },
+        {
+          "carId": 59,
+          "name": "Miura P400 SV",
+          "year": 1966,
+          "class":"street"
+        },
+        {
+          "carId": 60,
+          "name": "Sesto Elemento",
+          "year": 2011,
+          "class": "street"
+        }
+      ]
+    },
+    {
+      "brand": "Lotus",
+      "country": "Great Britain",
+      "models": [
+        {
+          "carId": 61,
+          "name": "2-Eleven",
+          "year": 2007,
+          "class":"street"
+        },
+        {
+          "carId": 62,
+          "name": "2-Eleven GT4",
+          "year": 2007,
+          "class": "race"
+        },
+        {
+          "carId": 63,
+          "name": "3-Eleven",
+          "year": 2015,
+          "class": "race"
+        },
+        {
+          "carId": 64,
+          "name": "72D",
+          "year": 1970,
+          "class": "race"
+        },
+        {
+          "carId": 65,
+          "name": "98T",
+          "year": 1986,
+          "class": "race"
+        },
+        {
+          "carId": 66,
+          "name": "Elise SC",
+          "year": 2008,
+          "class": "street" 
+        },
+        {
+          "carId": 67,
+          "name": "Evora GTC",
+          "year": 2014,
+          "class": "street"
+        },
+        {
+          "carId": 68,
+          "name": "Evora GTE",
+          "year": 2014,
+          "class": "street"
+        },
+        {
+          "carId": 69,
+          "name": "Evora GTE Carbon",
+          "year": 2014,
+          "class":"street"
+        },
+        {
+          "carId": 70,
+          "name": "Evora GX",
+          "year": 2014,
+          "class": "street"
+        },
+        {
+          "carId": 71,
+          "name": "Evora S",
+          "year": 2014,
+          "class": "street"
+        },
+        {
+          "carId": 72,
+          "name": "Evora 240R",
+          "year": 2008,
+          "class": "street"
+        },
+        {
+          "carId": 73,
+          "name": "Exige S",
+          "year": 2012,
+          "class": "street"
+        },
+        {
+          "carId": 74,
+          "name": "Exige S roadster",
+          "year": 2013,
+          "class": "street"
+        },
+        {
+          "carId": 75,
+          "name": "Exige Scura",
+          "year": 2009,
+          "class": "street"
+        },
+        {
+          "carId": 76,
+          "name": "Exige V6 CUP",
+          "year": 2013,
+          "class": "street"
+        },
+        {
+          "carId": 77,
+          "name": "Exos 125",
+          "year": 2010, 
+          "class":"race"
+        },
+        {
+          "carId": 78,
+          "name": "Type 25",
+          "year": 1962,
+          "class":"race"
+        },
+        {
+          "carId": 79,
+          "name": "Type 49",
+          "year": 1967,
+          "class": "race"
+        }
+      ]
+    },
+    {
+      "brand": "Maserati",
+      "country": "Italy",
+      "models": [
+        {
+          "carId": 80,
+          "name": "250F 12 cylinder",
+          "year": 1954,
+          "class": "race"
+        },
+        {
+          "carId": 81,
+          "name": "250F 6 cylinder",
+          "year": 1954,
+          "class":"race"
+        },
+        {
+          "carId": 82,
+          "name": "Alfieri",
+          "year": 2014,
+          "class": "street"
+        },
+        {
+          "carId": 83,
+          "name": "GranTurismo MC GT4",
+          "year": 2016,
+          "class": "race"
+        },
+        {
+          "carId": 84,
+          "name": "Levante S",
+          "year": 2016,
+          "class": "street"
+        },
+        {
+          "carId": 85,
+          "name": "MC12 GT1",
+          "year": 2004,
+          "class": "race"
+        },
+        {
+          "carId": 86,
+          "name": "Quattroporte GTS",
+          "year": 2013,
+          "class": "street"
+        }
+      ]
+    },
+    {
+      "brand": "Mazda",
+      "country": "Japan",
+      "models": [
+        {
+          "carId": 87,
+          "name": "787B",
+          "year": 1990,
+          "class":"race"
+        },
+        {
+          "carId": 88,
+          "name": "Miata NA",
+          "year": 1990,
+          "class": "street"
+        },
+        {
+          "carId": 89,
+          "name": "MX5 Cup",
+          "year": 2016,
+          "class": "race"
+        },
+        {
+          "carId": 90,
+          "name": "MX5 ND",
+          "year": 2015,
+          "class": "street"
+        },
+        {
+          "carId": 91,
+          "name": "RX-7 Spirit R",
+          "year": 1991,
+          "class": "street"
+        },
+        {
+          "carId": 92,
+          "name": "RX-7 Tuned",
+          "year": 1991,
+          "class":"street"
+        }
+      ]
+    },
+    {
+      "brand": "McLaren",
+      "country":"Great Britain",
+      "models": [
+        {
+          "carId": 93,
+          "name": "570S",
+          "year": 2015,
+          "class":"street"
+        },
+        {
+          "carId": 94,
+          "name": "650S GT3",
+          "year": 2014,
+          "class":"race"
+        },
+        {
+          "carId": 95,
+          "name": "F1 GTR",
+          "year": 1995,
+          "class": "race"
+        },
+        {
+          "carId": 96,
+          "name": "MP4-12C",
+          "year": 2011,
+          "class": "street"
+        },
+        {
+          "carId": 97,
+          "name": "MP4-12C GT3",
+          "year": 2011,
+          "class": "race"
+        },
+        {
+          "carId": 98,
+          "name": "P1",
+          "year": 2013,
+          "class":"street"
+        },
+        {
+          "carId": 99,
+          "name": "P1 GTR",
+          "year": 2015,
+          "class": "street"
+        }
+      ]
+    },
+    {
+      "brand": "Mercedes-Benz",
+      "country": "Germany",
+      "models": [
+        {
+          "carId": 100,
+          "name": "SLS AMG",
+          "year": 2009,
+          "class": "street"
+        },
+        {
+          "carId": 101,
+          "name": "SLS AMG GT3",
+          "year": 2009,
+          "class": "race"
+        },
+        {
+          "carId": 102,
+          "name": "190E EVO II",
+          "year": 1990,
+          "class": "race"
+        },
+        {
+          "carId": 103,
+          "name": "AMG GT3",
+          "year": 2015,
+          "class": "race"
+        },
+        {
+          "carId": 104,
+          "name": "C9 1989 LM",
+          "year": 1989,
+          "class":"race"
+        }
+      ]
+    },
+    {
+      "brand": "Nissan",
+      "country": "Japan",
+      "models": [
+        {
+          "carId": 105,
+          "name": "370z Nismo",
+          "year": 2015,
+          "class": "street"
+        },
+        {
+          "carId": 106,
+          "name": "GT-R GT3",
+          "year": 2012,
+          "class": "race"
+        },
+        {
+          "carId": 107,
+          "name": "GT-R NISMO",
+          "year": 2014,
+          "class": "street"
+        },
+        {
+          "carId": 108,
+          "name": "Skyline GTR R34 V-spec",
+          "year": 1999,
+          "class":"street"
+        }
+      ]
+    },
+    {
+      "brand": "Scuderia Glickenhaus",
+      "country": "Italy",
+      "models": [
+        {
+          "carId": 109,
+          "name": "P4/5 Competizione 2011",
+          "year": 2011,
+          "class": "race"
+        },
+        {
+          "carId": 110,
+          "name": "SCG 003C",
+          "year": 2015,
+          "class":"race"
+        }
+      ]
+    },
+    {
+      "brand": "Pagani",
+      "country": "Italy",
+      "models": [
+        {
+          "carId": 111,
+          "name": "Huayra",
+          "year": 2012,
+          "class": "street"
+        },
+        {
+          "carId": 112,
+          "name": "Huayra BC",
+          "year": 2016,
+          "class": "street"
+        },
+        {
+          "carId": 113,
+          "name": "Zonda R",
+          "year": 2009,
+          "class": "race"
+        }
+      ]
+    },
+    {
+      "brand": "Porsche",
+      "country": "Germany",
+      "models": [
+        {
+          "carId": 114,
+          "name": "718 Boxter S",
+          "year": 2016,
+          "class": "street"
+        },
+        {
+          "carId": 115,
+          "name": "718 Boxter S PDK",
+          "year": 2016,
+          "class": "street"
+        },
+        {
+          "carId": 116,
+          "name": "718 Cayman S",
+          "year": 2016,
+          "class": "street"
+        },
+        {
+          "carId": 117,
+          "name": "718 RS 60 Spyder",
+          "year": 1960,
+          "class": "race"
+        },
+        {
+          "carId": 118,
+          "name": "908 LH",
+          "year": 1968,
+          "class": "race"
+        },
+        {
+          "carId": 119,
+          "name": "911 Carrera RSR 3.0",
+          "year": 1974,
+          "class": "race"
+        },
+        {
+          "carId": 120,
+          "name": "911 Carrera S",
+          "year": 2015,
+          "class":"street"
+        },
+        {
+          "carId": 121,
+          "name": "911 GT1-98",
+          "year": 1996,
+          "class": "race"
+        },
+        {
+          "carId": 122,
+          "name": "911 GT3 Cup 2017",
+          "year": 2017,
+          "class": "race"
+        },
+        {
+          "carId": 123,
+          "name": "911 GT3 R 2016",
+          "year": 2016,
+          "class": "race"
+        },
+        {
+          "carId": 124,
+          "name": "911 GT3 RS",
+          "year": 2015,
+          "class": "street"
+        },
+        {
+          "carId": 125,
+          "name": "911 R",
+          "year": 2016,
+          "class": "street"
+        },
+        {
+          "carId": 126,
+          "name": "911 RSR 2017",
+          "year": 2017,
+          "class": "race"
+        },
+        {
+          "carId": 127,
+          "name": "911 Turbo S",
+          "year": 2015,
+          "class":"street"
+        },
+        {
+          "carId": 128,
+          "name": "917 K",
+          "year": 1970,
+          "class":"race"
+        },
+        {
+          "carId": 129,
+          "name": "917/30 Spyder",
+          "year": 1973,
+          "class":"race"
+        },
+        {
+          "carId": 130,
+          "name": "918 Spyder",
+          "year": 2014,
+          "class":"street"
+        },
+        {
+          "carId": 131,
+          "name": "919 Hybrid 2015",
+          "year": 2015,
+          "class":"race"
+        },
+        {
+          "carId": 132,
+          "name": "919 Hybrid 2016",
+          "year": 2016,
+          "class":"race"
+        },
+        {
+          "carId": 133,
+          "name": "935/78 'Moby Dick",
+          "year": 1978,
+          "class": "race"
+        },
+        {
+          "carId": 134,
+          "name": "962 C Long Tail",
+          "year": 1984,
+          "class": "race"
+        },
+        {
+          "carId": 135,
+          "name": "962 C Short Tail",
+          "year": 1984,
+          "class":"race"
+        },
+        {
+          "carId": 136,
+          "name": "Cayenne Turbo S",
+          "year": 2015,
+          "class":"street"
+        },
+        {
+          "carId": 137,
+          "name": "Cayman GT4",
+          "year": 2016,
+          "class":"street"
+        },
+        {
+          "carId": 138,
+          "name": "Cayman GT4 Clubsport",
+          "year": 2015,
+          "class":"race"
+        },
+        {
+          "carId": 139,
+          "name": "Macan Turbo",
+          "year": 2014,
+          "class": "street"
+        },
+        {
+          "carId": 140,
+          "name": "Panamera Turbo",
+          "year": 2016,
+          "class":"street"
+        }
+      ]
+    },
+    {
+      "brand": "Praga",
+      "country": "Czech Republic",
+      "models": [
+        {
+          "carId": 141,
+          "name": "R1",
+          "year": 2012,
+          "class": "race" 
+        }
+      ]
+    },
+    {
+      "brand": "RUF",
+      "country": "Germany",
+      "models": [
+        {
+          "carId": 141,
+          "name": "CTR Yellowbird",
+          "year": 1987,
+          "class": "street"
+        },
+        {
+          "carId": 142,
+          "name": "RT12 R",
+          "year": 2011,
+          "class": "street"
+        },
+        {
+          "carId": 143,
+          "name": "RT12 R AWD",
+          "year": 2011,
+          "class": "street"
+        }
+      ]
+    },
+    {
+      "brand": "Shelby",
+      "country": "USA",
+      "models": [
+        {
+          "carId": 144,
+          "name": "Cobra 427 S/C",
+          "year": 1966,
+          "class": "race"
+        }
+      ]
+    },
+    {
+      "brand": "Tatuus",
+      "country": "Italy",
+      "models": [
+        {
+          "carId": 145,
+          "name": "FA01",
+          "year": 2010,
+          "class": "race"
+        }
+      ]
+    },
+    {
+      "brand": "Toyota",
+      "country": "Japan",
+      "models": [
+        {
+          "carId": 146,
+          "name": "AE86",
+          "year": 1983,
+          "class": "street"
+        },
+        {
+          "carId": 147,
+          "name": "AE86 Drift",
+          "year": 1983,
+          "class": "street"
+        },
+        {
+          "carId": 148,
+          "name": "AE86 Tuned",
+          "year": 1983,
+          "class": "street"
+        },
+        {
+          "carId": 149,
+          "name": "Celica ST185 4WD Turbo",
+          "year": 1989,
+          "class": "race"
+        },
+        {
+          "carId": 150,
+          "name": "GT86",
+          "year": 2015,
+          "class": "street"
+        },
+        {
+          "carId": 151,
+          "name": "Supra MKIV",
+          "year": 1993,
+          "class": "street"
+        },
+        {
+          "carId": 152,
+          "name": "Supra MKIV Drift",
+          "year": 1993,
+          "class":"street"
+        },
+        {
+          "carId": 153,
+          "name": "Supra MKIV Time Attack",
+          "year": 1993,
+          "class": "street"
+        },
+        {
+          "carId": 154,
+          "name": "TS040 Hybrid 2014",
+          "year": 2014,
+          "class":"race"
+        }
+      ]
+    }
+  ]
+}

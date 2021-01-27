@@ -1,0 +1,351 @@
+{
+  "tracks": [
+    {
+      "trackId": 1,
+      "name": "Barcelona",
+      "country": "Spain",
+      "desc": "Circuit de Barcelona",
+      "configuration": [
+        {
+          "confId": 1,
+          "layout": "GP",
+          "length": 4655
+        },
+        {
+          "confId": 2,
+          "layout": "Moto",
+          "length": 4727
+        }
+      ]
+    },
+    {
+      "trackId": 2,
+      "name": "Black Cat County",
+      "country": "USA",
+      "desc": "Fictional U.S.A road",
+      "configuration": [
+        {
+          "confId": 1,
+          "layout": "Standard",
+          "length": 6478
+        },
+        {
+          "confId": 2,
+          "layout": "Long",
+          "length": 11244
+        },
+        {
+          "confId": 3,
+          "layout": "Short",
+          "length": 6542
+        }
+      ]
+    },
+    {
+      "trackId": 3,
+      "name": "Brands Hatch",
+      "country":"Great Britain",
+      "desc": "Brands Hatch Circuit",
+      "configuration": [
+        {
+          "confId": 1,
+          "layout": "GP",
+          "length": 3908
+        },
+        {
+          "confid": 2,
+          "layout": "Indy",
+          "length": 1929
+        }
+      ]
+    },
+    {
+      "trackId": 4,
+      "name": "Highlands",
+      "country": "Scotland",
+      "desc": "Fictional Scotland",
+      "configuration": [
+        {
+          "confId": 1,
+          "layout": "Standard",
+          "length": 8152
+        },
+        {
+          "confId": 2,
+          "layout": "Drift",
+          "length": 5167
+        },
+        {
+          "confId": 3,
+          "layout": "Long",
+          "length": 12191
+        },
+        {
+          "confId": 4,
+          "layout": "Short",
+          "length": 1714
+        }
+      ]
+    },
+    {
+      "trackId": 5,
+      "name": "Imola",
+      "country": "Italy",
+      "desc": "Autodromo Enzo e Dino Ferrari",
+      "configuration": [
+        {
+          "confId": 1,
+          "layout": "Standard",
+          "length": 4909
+        }
+      ]
+    },
+    {
+      "trackId": 6,
+      "name": "Laguna Seca",
+      "country": "USA",
+      "desc": "Mazda Raceway Laguna Seca",
+      "configuration": [
+        {
+          "confId": 1,
+          "layout": "Standard",
+          "length": 3602
+        }
+      ]
+    },
+    {
+      "trackId": 7,
+      "name": "Magione",
+      "country": "Italy",
+      "desc": "Autodromo di Umbria",
+      "configuration": [
+        {
+          "confId": 1,
+          "layout": "Standard",
+          "length": 2507
+        }
+      ]
+    },
+    {
+      "trackId": 8,
+      "name": "Monza",
+      "country": "Italy",
+      "desc": "Autodromo di Monza",
+      "configuration": [
+        {
+          "confId": 1,
+          "name": "Standard",
+          "length": 5793
+        }
+      ]
+    },
+    {
+      "trackId": 9,
+      "name": "Monza 1966",
+      "country": "Italy",
+      "desc":"Autodromo di Monza",
+      "configuration": [
+        {
+          "confId": 1,
+          "layout": "Full Course",
+          "length": 10000
+        },
+        {
+          "confId": 2,
+          "layout": "Junior Course",
+          "length": 2405
+        },
+        {
+          "confId": 3,
+          "layout": "Road Course",
+          "length": 5793
+        }
+      ]
+    },
+    {
+      "trackId": 10,
+      "name": "Mugello",
+      "country": "Italy",
+      "desc": "Autodromo del Mugello",
+      "configuration": [
+        {
+          "confId": 1,
+          "layout": "Standard",
+          "length": 5245
+        }
+      ]
+    },
+    {
+      "trackId": 11,
+      "name": "Nordschleife",
+      "country": "Germany",
+      "desc": "Nurburgring Nordschleife",
+      "configuration": [
+        {
+          "confId": 1,
+          "layout": "Standard",
+          "length": 20832
+        },
+        {
+          "confId": 2,
+          "layout": "Endurance",
+          "length": 25378
+        },
+        {
+          "confId": 3,
+          "layout": "Endurance Cup",
+          "length": 24433
+        },
+        {
+          "confId": 4,
+          "layout": "Tourist",
+          "length": 19100
+        }
+      ]
+    },
+    {
+      "trackId": 12,
+      "name": "Nurburgring",
+      "country": "Germany",
+      "desc": "Nurburgring",
+      "configuration": [
+        {
+          "confId": 1,
+          "layout": "GP",
+          "length": 5148
+        },
+        {
+          "confId": 2,
+          "layout": "GP (GT)",
+          "length": 5137
+        },
+        {
+          "confId": 3,
+          "layout": "Sprint",
+          "length": 3629
+        },
+        {
+          "confId": 4,
+          "layout": "Sprint (GT)",
+          "length": 3618
+        }
+      ]
+    },
+    {
+      "trackId": 13,
+      "name": "Red Bull Ring",
+      "country": "Austria",
+      "desc": "Red Bull Ring Grand Prix Circuit",
+      "configuration": [
+        {
+          "confId": 1,
+          "layout": "GP",
+          "length": 4326
+        },
+        {
+          "confId": 2,
+          "layout": "National",
+          "length": 2336
+        }
+      ]
+    },
+    {
+      "trackId": 14,
+      "name": "Silverstone",
+      "country": "Great Britain",
+      "desc": "Circuit of Silverstone",
+      "configuration": [
+        {
+          "confId": 1,
+          "layout": "GP",
+          "length": 5901
+        },
+        {
+          "confId": 2,
+          "layout": "International",
+          "length": 3619
+        },
+        {
+          "confId": 3,
+          "layout": "National",
+          "length": 2638
+        }
+      ]
+    },
+    {
+      "trackId": 15,
+      "name": "Silverstone 1967",
+      "country":"Great Britain",
+      "desc": "Historic Circuit of Silverstone",
+      "configuration": [
+        {
+          "confId": 1,
+          "layout": "Standard",
+          "length": 4710 
+        }
+      ]
+    },
+    {
+      "trackId": 16,
+      "name": "Spa",
+      "country": "Belgium",
+      "desc": "Spa-Francorchamps",
+      "configuration": [
+        {
+          "confId": 1,
+          "layout": "Standard",
+          "length": 7004
+        }
+      ]
+    },
+    {
+      "trackId": 17,
+      "name": "Trento-Bondone",
+      "country": "Italy",
+      "desc": "Hillclimb course",
+      "configuration": [
+        {
+          "confId": 1,
+          "layout": "Standard",
+          "length": 17619
+        }
+      ]
+    },
+    {
+      "trackId": 18,
+      "name": "Vallelunga",
+      "country": "Italy",
+      "desc": "Autodromo Piero Taruffi",
+      "configuration": [
+        {
+          "confId": 1,
+          "layout": "Standard",
+          "length": 4085
+        },
+        {
+          "confId": 2,
+          "layout": "Classic",
+          "length": 3222
+        },
+        {
+          "confId": 3,
+          "layout": "Club",
+          "length": 1746
+        }
+      ]
+    },
+    {
+      "trackId": 19,
+      "name": "Zandvoort",
+      "country": "Netherlands",
+      "desc": "Zandvoort Circuit Park",
+      "configuration": [
+        {
+          "confId": 1,
+          "layout": "Standard",
+          "length": 4307
+        }
+      ]
+    }
+  ]
+}
