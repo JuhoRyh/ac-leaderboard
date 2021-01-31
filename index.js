@@ -8,6 +8,7 @@ const Track = require('./models/track')
 const Record = require('./models/record')
 const mongoose = require('mongoose')
 const url = process.env.MONGODB_URL
+const path = require('path')
 
 app.use(cors())
 
@@ -15,7 +16,8 @@ app.use(express.json())
 
 app.use(express.static('public'))
 
-console.log('connecting to db')
+app.use(express.static(path.join(__dirname, 'build')))
+
 
 mongoose.connect(url, { useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false, useCreateIndex: true }).then(res => {
   console.log('Connected to db')
@@ -51,8 +53,6 @@ app.get('/api/tracks', (req,res)=> {
 
 app.post('/api/records', (req,res) => {
   const body = req.body
-
-  console.log(req.body)
   
   if(body.laptime === undefined){
     return res.status(400).json({error: 'Info missing'})
@@ -80,6 +80,10 @@ app.get('/api/records/:trackId', (req,res) => {
     })
     res.json(records)
   })
+})
+
+app.get('*', (req,res) => {
+  res.sendFile(path.join(__dirname+'/build/index.html'))
 })
 
 
