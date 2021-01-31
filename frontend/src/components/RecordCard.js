@@ -5,7 +5,7 @@ const RecordCard = (props) => {
   const [car, setCar] = useState()
   
   useEffect(() => {
-    axios.get(`http://localhost:3001/api/cars/${props.record.carId}`).then(res => {
+    axios.get(`/api/cars/${props.record.carId}`).then(res => {
       setCar(res.data[0])})
   },[])
 
@@ -18,14 +18,15 @@ const RecordCard = (props) => {
 
   if(car !== undefined){
     return(
-      <div>
-        <div>
-          <p>{props.record.username}</p>
+      <div className="w-screen md:w-1/2 flex flex-row justify-between shadow-xl">
+        <div className="m-auto">
+          <p className="text-xl text-left">{props.record.username}</p>
+          <h4 className="text-3xl text-left">{getLapTime(props.record.laptime)}</h4>
           <p>{car.brand} {car.name}</p>
-          <h4>{getLapTime(props.record.laptime)}</h4>
+          
         </div>
         <div>
-          <img src={`http://localhost:3001/images/cars/${car.carId}.jpg`} />
+          <img width="355" src={`/images/cars/${car.carId}.jpg`} />
         </div>
       </div>
     )

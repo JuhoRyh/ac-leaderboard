@@ -2,9 +2,9 @@ import React from 'react'
 
 const Header = () => {
   return(
-    <div>
+    <div className="mt-4 mb-4">
       <a href='/'>
-        <h1>AC Hotlap Leaderboards</h1>
+        <h1 className="text-center text-3xl font-bold">AC Hotlap Leaderboards</h1>
       </a>
     </div>
   )

@@ -2,7 +2,7 @@ require('dotenv').config()
 const express = require('express')
 const cors = require('cors')
 const app = express()
-const PORT = 3001
+const PORT = process.env.PORT
 const Car =  require('./models/car')
 const Track = require('./models/track')
 const Record = require('./models/record')
@@ -83,6 +83,6 @@ app.get('/api/records/:trackId', (req,res) => {
 })
 
 
-app.listen(PORT, () => {
+app.listen(PORT || 3001, () => {
   console.log('server running')
 })

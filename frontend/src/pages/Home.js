@@ -8,7 +8,7 @@ const Home = () => {
   const [tracks, setTracks] = useState([])
 
   useEffect(() => {
-    axios.all([axios.get('http://localhost:3001/api/tracks'), axios.get('http://localhost:3001/api/cars')]).then(axios.spread((firstRes, secondRes) => {
+    axios.all([axios.get('/api/tracks'), axios.get('/api/cars')]).then(axios.spread((firstRes, secondRes) => {
       setTracks(firstRes.data)
       setCars(secondRes.data)
     }))
