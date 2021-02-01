@@ -14,8 +14,10 @@ app.use(cors())
 
 app.use(express.json())
 
+//Allowing to get photos from the public folder
 app.use(express.static('public'))
 
+//Makes the frontend work on '/'
 app.use(express.static(path.join(__dirname, 'build')))
 
 
@@ -25,32 +27,33 @@ mongoose.connect(url, { useNewUrlParser: true, useUnifiedTopology: true, useFind
   console.log(`error in connecting: ${error.message}`)
 })
 
-app.get('/', (req,res) => {
-  res.send('<h1>Hello World</h1>')
-})
-
+//Sends info of a car
 app.get('/api/cars/:carId', (req,res) => {
   const carId = req.params.carId
   Car.find({carId: carId}).then(car => res.json(car))
 })
 
+//Sends all the cars
 app.get('/api/cars', (req,res) => {
   Car.find({}).then(cars => {
     res.json(cars)
   })
 })
 
+//Sends info of a track
 app.get('/api/tracks/:trackId', (req,res) => {
   const trackId = req.params.trackId
   Track.find({trackId: trackId}).then(track => res.json(track))
 })
 
+//Sends all the track
 app.get('/api/tracks', (req,res)=> {
   Track.find({}).then(tracks => {
     res.json(tracks) 
   })
 })
 
+//Saves a record to the database
 app.post('/api/records', (req,res) => {
   const body = req.body
   
@@ -68,10 +71,11 @@ app.post('/api/records', (req,res) => {
   })
 
   record.save().then(savedRecord => {
-    res.json(savedRecord)
-  })
+    res.json(savedRecord.toJSON())
+  }).catch()
 })
 
+//Sends all the records of an specific track
 app.get('/api/records/:trackId', (req,res) => {
   const trackId = req.params.trackId
   Record.find({trackId: trackId}).then(records => {
